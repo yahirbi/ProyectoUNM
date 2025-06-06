@@ -12,10 +12,10 @@ const config: Config = {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
       colors: {
-        blue: {
-          400: '#2589FE',
-          500: '#0070F3',
-          600: '#2F6FEB',
+        green: {
+          400: '#4ade80',  // Verde claro
+          500: '#42c34e',  // Tu color base
+          600: '#16a34a',  // Verde oscuro
         },
       },
     },
@@ -29,4 +29,5 @@ const config: Config = {
   },
   plugins: [require('@tailwindcss/forms')],
 };
+
 export default config;
